@@ -10,7 +10,7 @@ Here's a basic template for a README file:
 
 This project is designed to perform Extract, Transform, Load (ETL) operations to process data from various sources, transform it according to business rules, and load it into a target data warehouse for further analysis.
 
-The ETL pipeline is implemented using Python, Apache Kafka, Apache Spark, and a WebSocket server for real-time data visualization.
+The ETL pipeline is implemented using Python3, Apache Kafka, Apache Spark, and a WebSocket server for real-time data visualization.
 
 ## Table of Contents
 
@@ -33,11 +33,10 @@ The ETL pipeline is implemented using Python, Apache Kafka, Apache Spark, and a 
 
 ## Technologies Used
 
-- **Python**: Main programming language used for ETL scripting.
+- **Python3**: Main programming language used for ETL scripting.
 - **Apache Kafka**: Used for real-time data streaming.
 - **Apache Spark**: Used for distributed data processing.
 - **WebSockets**: For real-time data visualization.
-- **Docker**: Containerization of the entire application stack.
 - **Git**: Version control for project collaboration.
 
 ## Architecture
@@ -51,10 +50,9 @@ The ETL pipeline is implemented using Python, Apache Kafka, Apache Spark, and a 
 
 ### Prerequisites
 
-- [Python 3.8+](https://www.python.org/downloads/)
+- [Python3 3.8+](https://www.Python3.org/downloads/)
 - [Apache Kafka](https://kafka.apache.org/downloads)
 - [Apache Spark](https://spark.apache.org/downloads.html)
-- [Docker](https://www.docker.com/products/docker-desktop)
 - [Git](https://git-scm.com/)
 
 ### Steps
@@ -65,9 +63,9 @@ The ETL pipeline is implemented using Python, Apache Kafka, Apache Spark, and a 
    cd ETL_project
    ```
 
-2. **Set Up Python Environment**:
+2. **Set Up Python3 Environment**:
    ```bash
-   python -m venv venv
+   Python3 -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    pip install -r requirements.txt
    ```
@@ -80,14 +78,14 @@ The ETL pipeline is implemented using Python, Apache Kafka, Apache Spark, and a 
 
 5. **Start WebSocket Server**:
    ```bash
-   python websocket_server.py
+   Python3 websocket_server.py
    ```
 
 ## Usage
 
 1. **Generate Data**: Run the data generator script to start sending data to Kafka.
    ```bash
-   python generate_web_traffic.py
+   Python3 generate_web_traffic.py
    ```
 
 2. **Run ETL Pipeline**: Start the ETL process by running the Spark consumer script.
