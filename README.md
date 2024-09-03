@@ -102,7 +102,4 @@ The ETL pipeline is implemented using Python3, Apache Kafka, Apache Spark, and a
 
 Contributions are welcome! Please fork this repository and submit a pull request for any enhancements, bug fixes, or documentation improvements.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
